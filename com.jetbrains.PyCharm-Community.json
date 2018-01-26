@@ -31,7 +31,7 @@
             "name": "pycharm",
             "buildsystem": "simple",
             "build-commands": [
-                "tar xzfv pycharm-community-2017.3.tar.gz",
+                "tar xzfv pycharm-community-2017.3.3.tar.gz",
                 "rm -f pycharm-community-2017.3/bin/fsnotifier*",
                 "rm -f pycharm-community-2017.3/help/*",
                 "install -dm755 /app/bin",
@@ -47,7 +47,7 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://download.jetbrains.com/python/pycharm-community-2017.3.tar.gz",
+                    "url": "https://download.jetbrains.com/python/pycharm-community-2017.3.3.tar.gz",
                     "sha256": "b973581cb3de0f0f5a203231f67b21a45b7dd58968393cef49d48403cb1b8ad1"
                 },
                 {
